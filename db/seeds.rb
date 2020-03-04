@@ -76,7 +76,7 @@ cat1.products.create!({
 })
 
 cat1.products.create!({
-  name:  'Human Feet Shoes',
+  name:  'Feet Shoes',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('apparel6.jpg'),
   quantity: 82,
@@ -109,7 +109,7 @@ cat2.products.create!({
 })
 
 cat3.products.create!({
-  name:  'Optimal Sleeping Bed',
+  name:  'Whack-ass bed',
   description: Faker::Hipster.paragraph(4),
   image: open_asset('furniture1.jpg'),
   quantity: 320,
