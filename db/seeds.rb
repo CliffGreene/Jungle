@@ -6,6 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+# bin/rake db:reset    To reset database
+
 puts "Seeding Data ..."
 
 # Helper functions
