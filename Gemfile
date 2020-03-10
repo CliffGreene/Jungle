@@ -58,3 +58,6 @@ group :production do
   gem 'newrelic_rpm'
   gem 'rails_12factor'
 end
+
+# Added at 2020-03-09 22:32:07 +0000 by vagrant:
+gem "rspec-rails", "~> 3.9"
